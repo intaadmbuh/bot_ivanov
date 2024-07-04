@@ -1,0 +1,33 @@
+{
+  "name": "teleg_bot_grammy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "INDEX.js",
+  "scripts": {
+    "start": "nodemon INDEX.js"
+  },
+  "author": "Kolosov Alexey",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/files": "^1.1.1",
+    "@grammyjs/hydrate": "^1.4.1",
+    "@grammyjs/ratelimiter": "^1.2.0",
+    "@grammyjs/runner": "^2.0.3",
+    "@grammyjs/transformer-throttler": "^1.2.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "gps-distance": "^0.0.4",
+    "grammy": "^1.25.2",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "read-excel-file": "^5.8.3",
+    "redis": "^4.6.14",
+    "sequelize": "^6.37.3",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "winston-telegram": "^2.7.0"
+  }
+}

@@ -1,0 +1,12 @@
+LOG/
+.env
+.idea/
+node_modules/
+SERVER_VER_LAST/
+Работа с серверной частью/
+РАСПИСАНИЯ/
+HOW_TO_CODE/
+*.iml
+External Libraries/
+Scratches and Consoles/
+
